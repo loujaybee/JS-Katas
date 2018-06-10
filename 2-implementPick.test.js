@@ -7,7 +7,7 @@ describe('Implement .Pick', () => {
         expect(pick({ name: "Lou"}, "name")).toEqual("Lou");
     });
 
-    test('Can use map and pick', () => {
+    test('Can use map and pick together', () => {
         const data = [{
             name: "Lou"
         }]
